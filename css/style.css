@@ -1,12 +1,11 @@
 * { box-sizing: border-box; }
-.clearfix::after {
-    clear: both;
-}
+.clearfix::after { clear: both; }
+
 /* variables */
 :root {
+    --primary-color: #08A6E4;
+    --primary-color-shadow: rgba(7, 172, 230, .16);
     --white-color: #FFFFFF;
-    --black-color: #000000;
-    --yellow-color: #F9C06A;
     --coffee-color: #603809;
     --cards-color: #FFF9F1;
     --cta-color: #1E1E1E;
@@ -25,8 +24,8 @@ body { font-family: var(--primary-font), serif; font-size: 16px;}
 /* container */
 
 .container {
-    /* width: 90%;*/
-    max-width: 1200px;
+    /* width: 100%;*/
+    max-width: 1352px;
     margin: 0 auto;
 }
 
