@@ -9,7 +9,7 @@
 
 /* variables */
 :root {
-    --primary-color: #08A6E4;
+    --primary-color: #08a6e4;
     --primary-color-shadow: rgba(7, 172, 230, .16);
     --secondary-font-color: #A5A5A5;
     --color-benefits-background: #F7F7F7;
@@ -33,6 +33,18 @@ body {
 
 * a {
     text-decoration: none;
+}
+
+.btn_big {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 0.75em 2em;
+    border-radius: 30px;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /* container */
@@ -102,3 +114,31 @@ header {
 }
 
 /* e: header: logo + nav menu */
+
+/* hero */
+.container__hero {
+    display: flex;
+    background-image: url(../images/Background.png);
+}
+
+.hero__title {
+    text-align: center;
+    font: normal normal normal 49px/57px var(--primary-font-raleway);
+    color: var(--primary-font-color);
+    letter-spacing: 0;
+}
+
+.hero__text {
+    text-align: center;
+    font: normal normal normal 16px/22px var(--secondary-font-open-sans);
+    color: var(--primary-font-color);
+}
+
+.hero__btn {
+    text-align: center;
+    font: normal normal bold 16px/22px var(--secondary-font-open-sans);
+    color: var(--white-color);
+    background: var(--primary-color) 0 0 no-repeat padding-box;
+    box-shadow: 5px 10px 14px var(--primary-color-shadow);
+    border-radius: 40px;
+}
