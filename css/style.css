@@ -25,16 +25,15 @@
 
 /* base */
 body {
-    font-family: var(--primary-font-raleway), serif;
+    font-family: var(--primary-font-raleway), sans-serif;
     font-size: 16px;
     color: var(--primary-color);
 }
 /* e: base */
 
-* a {
-    text-decoration: none;
-}
+* a { text-decoration: none; }
 
+/* TODO! UMESTI TEGA GUMBA NEKAM!
 .btn_big {
     display: inline-block;
     vertical-align: middle;
@@ -46,10 +45,10 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
+*/
 
 /* container */
 .container {
-    /* width: 100%;*/
     max-width: 1352px;
     margin: 0 auto;
 }
@@ -58,60 +57,44 @@ body {
 /* header: logo + nav menu */
 
 header {
-    position: relative;
-    width: 100%;
+    height: 70px;
     box-shadow: 0 3px 6px #00000029;
 }
 
 .header__container {
-    max-width: 1352px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 4.375em;
+    height: 100%;
 }
 
 .header__logo {
-    font: normal normal 300 2em/2.3125em var(--primary-font-raleway);
+    font-family: var(--primary-font-raleway), sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
     color: var(--primary-color);
-    text-decoration: none;
 }
 
-.header__nav {
-    display: flex;
-    gap:5em;
-    align-items: center;
-    padding-right: 2em;
-}
+.header__nav { display: flex; }
 
-.nav__element a {
-    position: relative;
-    font: normal normal bold 0.6875em/0.9375em var(--secondary-font-open-sans);
+.nav__link {
     color: var(--secondary-font-color);
-    letter-spacing: 0.205em;
-    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.6875rem;
     text-transform: uppercase;
-    padding-bottom: 1.5em;
-}
-.nav__element a::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 4px;
-    background-color: var(--primary-color);
+    padding: 28px 18px 24px;
+    border-bottom: 4px solid transparent;
+    letter-spacing: 0.1875rem;
 }
 
-.nav__element a:hover {
+.nav__link:hover {
     color: var(--primary-font-color);
-    cursor: pointer;
+    border-color: var(--primary-color);
 }
 
-.nav__element a:hover::after {
-    width: 100%;
-}
+.nav__element { padding: 0 26px; }
+
+
 
 /* e: header: logo + nav menu */
 
