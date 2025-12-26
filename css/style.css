@@ -59,6 +59,7 @@ body {
 header {
     height: 70px;
     box-shadow: 0 3px 6px #00000029;
+    text-decoration: none;
 }
 
 .header__container {
@@ -93,31 +94,37 @@ header {
 }
 
 .nav__element { padding: 0 26px; }
-
-
-
 /* e: header: logo + nav menu */
 
-/* hero */
-.container__hero {
+/* opening section */
+.opening {
     display: flex;
-    background-image: url(../images/Background.png);
-}
-
-.hero__title {
-    text-align: center;
-    font: normal normal normal 49px/57px var(--primary-font-raleway);
-    color: var(--primary-font-color);
-    letter-spacing: 0;
-}
-
-.hero__text {
-    text-align: center;
-    font: normal normal normal 16px/22px var(--secondary-font-open-sans);
+    flex-direction: column;
+    justify-content: center;
     color: var(--primary-font-color);
 }
 
-.hero__btn {
+.container__opening{
+    margin-top: 130px;
+    text-align: center;
+}
+
+.opening__title {
+    font-family: var(--primary-font-raleway), sans-serif;
+    font-size: 3.0625rem;
+}
+
+.opening__text {
+    margin-top: 20px;
+    margin-bottom: 38px;
+}
+
+.opening__background {
+    width: 100%;
+    height: auto;
+}
+
+.opening__btn {
     text-align: center;
     font: normal normal bold 16px/22px var(--secondary-font-open-sans);
     color: var(--white-color);
