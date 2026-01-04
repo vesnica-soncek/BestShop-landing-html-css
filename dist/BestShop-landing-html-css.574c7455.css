@@ -1,2 +1,43 @@
+* {
+  box-sizing: border-box;
+}
 
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+body {
+  color: #000;
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-family: Raleway, sans-serif;
+  font-size: 2.25rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+  width: 1352px;
+  margin: 0 auto;
+}
+
+@media (width <= 1352px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+}
 /*# sourceMappingURL=BestShop-landing-html-css.574c7455.css.map */
