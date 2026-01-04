@@ -1,4 +1,4 @@
-14706
+14708
 99/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/BestShop-landing-html-css.3464ddca.js.map1767523635911707273 0
 96/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/BestShop-landing-html-css.b2625c6b.css1767523635831556034 0
 81/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/Background.b0093fb6.png1767523635010556866 0
@@ -13,14 +13,15 @@
 100/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/BestShop-landing-html-css.9bfebdba.css.map1767523635364556507 0
 66/home/vesnicasoncek/GitHub/BestShop-landing-html-css/css/reset.css1761123560098107000 0
 56/home/vesnicasoncek/GitHub/BestShop-landing-html-css/css1767030679984897991 1
-65/home/vesnicasoncek/GitHub/BestShop-landing-html-css/package.json1767523631796759500 0
+65/home/vesnicasoncek/GitHub/BestShop-landing-html-css/package.json1767524324937702049 0
 70/home/vesnicasoncek/GitHub/BestShop-landing-html-css/package-lock.json1767521797317923982 0
-63/home/vesnicasoncek/GitHub/BestShop-landing-html-css/index.html1767030628955242476 0
+63/home/vesnicasoncek/GitHub/BestShop-landing-html-css/index.html1767524062524170171 0
 74/home/vesnicasoncek/GitHub/BestShop-landing-html-css/images/Background.png1576598646000000000 0
 73/home/vesnicasoncek/GitHub/BestShop-landing-html-css/images/Checkmark.svg1576598646000000000 0
 69/home/vesnicasoncek/GitHub/BestShop-landing-html-css/images/Close.svg1576598646000000000 0
 75/home/vesnicasoncek/GitHub/BestShop-landing-html-css/images/Checkmark-2.svg1576598646000000000 0
 70/home/vesnicasoncek/GitHub/BestShop-landing-html-css/images/iPhone.png1576598646000000000 0
+67/home/vesnicasoncek/GitHub/BestShop-landing-html-css/scss/main.scss1767524175738575883 0
 91/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/tslib/CopyrightNotice.txt1767520342660621440 0
 84/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/tslib/tslib.es6.js1767520342331627184 0
 82/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/tslib/tslib.d.ts1767520342645621702 0
@@ -8039,7 +8040,7 @@
 129/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/bundler-default/node_modules/@parcel/workers/src/bus.js1767521624552262413 0
 136/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/transformer-js/node_modules/@parcel/events/lib/ValueEmitter.js1767521624798262272 0
 90/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/commander/lib/command.js1767520342410625805 0
-52/home/vesnicasoncek/GitHub/BestShop-landing-html-css1767523634985556891 1
+52/home/vesnicasoncek/GitHub/BestShop-landing-html-css1767524324940702030 1
 120/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/optimizer-image/node_modules/@parcel/codeframe1767521625403261917 1
 128/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/optimizer-css/node_modules/@parcel/utils/src/config.js1767521624856262239 0
 142/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/namer-default/node_modules/@parcel/utils/src/generateBuildMetrics.js1767521625187262045 0
@@ -10226,6 +10227,7 @@
 131/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/transformer-html/node_modules/@parcel/events/package.json1767521624869262231 0
 134/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/transformer-svg/node_modules/@parcel/workers/src/cpuCount.js1767521624942262189 0
 137/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/runtime-rsc/node_modules/@parcel/types-internal/lib/unsafe.d.ts1767521625256262004 0
+57/home/vesnicasoncek/GitHub/BestShop-landing-html-css/scss1767524175738575883 1
 120/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/packager-css/node_modules/@parcel/rust/LICENSE1767521624370262517 0
 123/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/transformer-html/node_modules/@parcel/events/test1767521624852262241 1
 144/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/transformer-html/node_modules/@parcel/events/test/ValueEmitter.test.js1767521624860262236 0
