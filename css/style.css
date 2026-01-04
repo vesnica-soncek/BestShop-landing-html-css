@@ -73,22 +73,7 @@
     height: auto;
 }
 
-.btn {
-    color: white;
-    font-weight: bold;
-    display: inline-block;
-    padding: 16px 65px;
-    border-radius: var(--button-radius);
-    border: none;
-}
 
-.btn--primary {
-    background-color: var(--color-primary);
-    border-radius: var(--button-radius);
-    box-shadow: 3px 10px 14px var(--color-primary-shadow);
-}
-
-.btn--large { padding: 22px 155px; }
 /* e: opening section */
 
 /* statistics */
