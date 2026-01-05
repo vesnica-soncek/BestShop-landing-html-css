@@ -245,8 +245,15 @@ h2 {
 }
 
 .container {
-  width: 1352px;
+  max-width: 1352px;
   margin: 0 auto;
+}
+
+@media (width <= 1352px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
 }
 
 .logo {
@@ -267,6 +274,7 @@ h2 {
 
 .btn--primary {
   background-color: #08a6e4;
+  border-radius: 35px;
   box-shadow: 3px 10px 14px #07ace629;
 }
 
@@ -283,10 +291,6 @@ h2 {
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  display: flex;
-}
-
-.header__nav {
   display: flex;
 }
 
@@ -313,7 +317,78 @@ h2 {
   border-color: #08a6e4;
 }
 
-.header .menu__btn, .header .menu__toggle {
+.header__nav {
+  display: flex;
+}
+
+@media (width <= 792px) {
+  .header__nav {
+    background-color: #fff;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 20px;
+    display: none;
+    position: absolute;
+    top: 95px;
+    left: 0;
+  }
+
+  .header__nav .nav__element {
+    padding: 0;
+  }
+
+  .header__nav .nav__link {
+    padding: 14px 20px;
+    display: block;
+  }
+}
+
+.header .menu__btn {
+  opacity: 0;
   display: none;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+@media (width <= 792px) {
+  .header .menu__btn:checked ~ .header__nav {
+    display: flex;
+  }
+
+  .header .menu__btn:checked ~ .menu__toggle span:first-child {
+    transform: rotate(45deg)translate(2px, 5px);
+  }
+
+  .header .menu__btn:checked ~ .menu__toggle span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .header .menu__btn:checked ~ .menu__toggle span:nth-child(3) {
+    transform: rotate(-45deg)translate(2px, -5px);
+  }
+}
+
+.header .menu__toggle {
+  display: none;
+}
+
+.header .menu__toggle span {
+  background-color: #08a6e4;
+  width: 20px;
+  height: 2px;
+  margin-bottom: 3px;
+  transition: all .3s ease-in-out;
+  display: block;
+}
+
+.header .menu__toggle span:last-child {
+  margin-bottom: 0;
+}
+
+@media (width <= 792px) {
+  .header .menu__toggle {
+    display: block;
+  }
 }
 /*# sourceMappingURL=BestShop-landing-html-css.574c7455.css.map */

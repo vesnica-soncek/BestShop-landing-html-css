@@ -11,9 +11,11 @@ $button-radius: 35px;
 
 .btn--primary {
   background-color: $color-primary;
+  border-radius: $button-radius;
   box-shadow: 3px 10px 14px $color-primary-shadow;
 }
 
 .btn--large {
   padding: 22px 155px;
 }
+
