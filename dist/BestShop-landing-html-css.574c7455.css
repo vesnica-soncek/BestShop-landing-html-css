@@ -1030,4 +1030,93 @@ h2 {
 .contact__details .details__item img {
   margin-right: 10px;
 }
+
+.form {
+  flex-direction: column;
+  display: flex;
+}
+
+@media (width <= 1024px) {
+  .form {
+    margin-top: 20px;
+  }
+}
+
+.form__field {
+  flex-direction: column;
+  display: flex;
+}
+
+.form__field:first-of-type {
+  margin-bottom: 42px;
+}
+
+.form__label {
+  text-transform: uppercase;
+  color: #08a6e4;
+  letter-spacing: 3px;
+  font-size: .6875rem;
+  font-weight: 700;
+  line-height: .9rem;
+}
+
+.form__input {
+  background-color: #0000;
+  border: none;
+  border-bottom: 1px solid #a5a5a5;
+  line-height: 2.625rem;
+}
+
+.form__consent {
+  margin-top: 30px;
+}
+
+.form__checkbox {
+  cursor: pointer;
+  margin-bottom: 12px;
+  padding-left: 35px;
+  font-size: 1.375rem;
+  display: block;
+  position: relative;
+}
+
+.form__checkbox input {
+  opacity: 0;
+  cursor: pointer;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.form__checkbox input:checked ~ .checkbox {
+  background-image: url("Checkmark.5be52c02.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+.form__checkbox .checkbox {
+  background-color: #fff;
+  border: 1px solid #a5a5a5;
+  border-radius: 4px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.form__checkbox .consent__text {
+  color: #a5a5a5;
+  margin: 0 10px;
+  font-size: .75rem;
+  line-height: 17px;
+}
+
+.form .btn {
+  align-self: flex-end;
+  margin-top: 20px;
+  padding: 20px 97px;
+  font-size: .8125rem;
+}
 /*# sourceMappingURL=BestShop-landing-html-css.574c7455.css.map */
