@@ -2,16 +2,11 @@
   padding: 100px 0;
   background-color: $color-benefits-background;
 
-  @include tablet {
-    padding: 50px 0;
-  }
+  @include tablet { padding: 50px 0; }
 
   &__container {
     padding: 0 100px;
-
-    @include tablet {
-      padding: 0 15px;
-    }
+    @include tablet { padding: 0 15px; }
   }
 
   &__single {
@@ -36,15 +31,13 @@
         margin-right: 117px;
         margin-bottom: 38px;
 
-        @include tablet {
-          margin: 40px 0 0;
-        }
+        @include tablet { margin: 40px 0 0; }
 
         &::before {
           content: "";
           width: 180px;
           height: 180px;
-          background-color: $color-pricing-1;
+          background-color: var(--accent-color);
           display: block;
           border-radius: 40px;
           position: absolute;
@@ -66,16 +59,12 @@
           position: relative;
           z-index: 2;
 
-          @include tablet {
-            width: 192px;
-          }
+          @include tablet { width: 192px; }
         }
       }
 
       @include tablet {
-        .benefits__text {
-          margin: 30px 0;
-        }
+        .benefits__text { margin: 30px 0; }
       }
     }
 
@@ -85,15 +74,13 @@
       padding: 0 20px 0 70px;
 
       .benefits__image {
-        @include tablet {
-          margin-top: 30px;
-        }
+        @include tablet { margin-top: 30px; }
 
         &::before {
           content: "";
           width: 320px;
           height: 320px;
-          background-color: $color-primary;
+          background-color: var(--accent-color);
           display: block;
           border-radius: 50%;
           position: absolute;
@@ -111,34 +98,24 @@
           width: 426px;
           height: auto;
 
-          @include tablet {
-            width: 175px;
-          }
+          @include tablet { width: 175px; }
         }
       }
 
       .benefits__text {
         margin: 70px 0;
-
-        @include tablet {
-          margin: 30px 0;
-        }
+        @include tablet { margin: 30px 0; }
       }
     }
-
   }
 
   &__double {
     --accent-color: #{$color-pricing-3};
     display: flex;
 
-    @include tablet {
-      flex-direction: column;
-    }
+    @include tablet { flex-direction: column; }
 
-    > div {
-      margin-bottom: 0;
-    }
+    > div { margin-bottom: 0; }
 
     .benefits__single--solo {
       max-width: 620px;
@@ -163,7 +140,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: $color-pricing-3;
+      background-color: var(--accent-color);
       border: none;
       margin-left: 60px;
 
@@ -179,7 +156,6 @@
       }
     }
   }
-
 
   &__text {
     box-sizing: content-box;
@@ -199,9 +175,7 @@
       display: block;
       margin-top: 50px;
 
-      @include tablet {
-        display: none;
-      }
+      @include tablet { display: none; }
     }
   }
 

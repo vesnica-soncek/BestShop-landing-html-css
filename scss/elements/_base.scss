@@ -1,16 +1,10 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   font-family: $font-secondary-open-sans;
   font-size: 16px;
   color: $color-font-primary-black;
 }
 
-a {
-  text-decoration: none;
-}
+a { text-decoration: none; }
 
 h2 {
   font-family: $font-primary-raleway;
@@ -18,7 +12,7 @@ h2 {
 }
 
 .container {
-  max-width: 1352px;
+  width: 1352px;
   margin: 0 auto;
 
   @include notebook {
