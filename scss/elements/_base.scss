@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-/* clearfix (če ga rabiš še kje) */
+/* clearfix */
 .clearfix::after {
   content: "";
   display: block;
@@ -17,4 +17,21 @@ body {
 
 a {
   text-decoration: none;
+}
+
+h2 {
+  font-family: $font-primary-raleway;
+  font-size: 2.25rem;
+}
+
+.container {
+  width: 1352px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-family: $font-primary-raleway;
+  font-size: 2rem;
+  font-weight: 300;
+  color: $color-primary;
 }

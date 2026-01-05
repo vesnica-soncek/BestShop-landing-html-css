@@ -1,3 +1,4 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 html {
   -webkit-text-size-adjust: 100%;
   line-height: 1.15;
@@ -238,6 +239,23 @@ a {
   text-decoration: none;
 }
 
+h2 {
+  font-family: Raleway, sans-serif;
+  font-size: 2.25rem;
+}
+
+.container {
+  width: 1352px;
+  margin: 0 auto;
+}
+
+.logo {
+  color: #08a6e4;
+  font-family: Raleway, sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
 .btn {
   color: #fff;
   border: none;
@@ -268,37 +286,34 @@ a {
   display: flex;
 }
 
-.logo {
-  color: #08a6e4;
-  font-family: Raleway, sans-serif;
-  font-size: 2rem;
-  font-weight: 300;
-}
-
 .header__nav {
   display: flex;
 }
 
-.nav__link {
+.header .nav__element {
+  padding: 0 26px;
+}
+
+.header .nav__element:last-child {
+  padding-right: 0;
+}
+
+.header .nav__link {
   color: #a5a5a5;
   text-transform: uppercase;
   letter-spacing: .1875rem;
   border-bottom: 4px solid #0000;
-  padding: 28px 18px 24px;
+  padding: 28px 18px 22px;
   font-size: .6875rem;
   font-weight: 700;
 }
 
-.nav__link:hover {
+.header .nav__link:hover {
   color: #000;
   border-color: #08a6e4;
 }
 
-.nav__element {
-  padding: 0 26px;
-}
-
-.nav__element:last-child {
-  padding-right: 0;
+.header .menu__btn, .header .menu__toggle {
+  display: none;
 }
 /*# sourceMappingURL=BestShop-landing-html-css.574c7455.css.map */
