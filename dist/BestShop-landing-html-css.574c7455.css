@@ -219,6 +219,10 @@ table {
   border-spacing: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   color: #000;
   font-family: Open Sans, sans-serif;
@@ -389,29 +393,29 @@ h2 {
   overflow: hidden;
 }
 
-.opening__content {
+.opening__container {
   text-align: center;
   margin-top: 130px;
 }
 
 @media (width <= 792px) {
-  .opening__content {
+  .opening__container {
     margin-top: 100px;
   }
 }
 
-.opening__header {
+.opening__title {
   font-family: Raleway, sans-serif;
   font-size: 3.0625rem;
 }
 
-.opening__heading {
+.opening__text {
   margin-top: 20px;
   margin-bottom: 38px;
 }
 
 @media (width <= 792px) {
-  .opening__heading {
+  .opening__text {
     padding: 0 70px;
   }
 }
