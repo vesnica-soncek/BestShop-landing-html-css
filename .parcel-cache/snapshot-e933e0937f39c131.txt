@@ -1,19 +1,19 @@
 3674
 96/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/BestShop-landing-html-css.b2625c6b.css1767523635831556034 0
-100/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/BestShop-landing-html-css.574c7455.css.map1767647875547513376 0
+100/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/BestShop-landing-html-css.574c7455.css.map1767648831273082144 0
 96/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/BestShop-landing-html-css.9bfebdba.css1767523635340309906 0
-78/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/Macbook.a5eb91ef.png1767629377209234540 0
-68/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/index.html1767629377183235548 0
-80/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/Mail Icon.795518c4.svg1767629377199234928 0
-78/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/Twitter.1a2aeb0b.svg1767629377200234889 0
-96/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/BestShop-landing-html-css.574c7455.css1767647875545513371 0
-78/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/Catalog.5ebe22b4.svg1767629377180235664 0
+78/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/Macbook.a5eb91ef.png1767648831261082432 0
+68/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/index.html1767648831252082647 0
+80/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/Mail Icon.795518c4.svg1767648831281081953 0
+78/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/Twitter.1a2aeb0b.svg1767648831281081953 0
+96/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/BestShop-landing-html-css.574c7455.css1767648831272082168 0
+78/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/Catalog.5ebe22b4.svg1767648831252082647 0
 100/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/BestShop-landing-html-css.b2625c6b.css.map1767523635834556031 0
-78/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/Trumpet.d291d6ae.png1767629377210234501 0
+78/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/Trumpet.d291d6ae.png1767648831263082384 0
 96/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/BestShop-landing-html-css.6dab377c.css1767523635831556034 0
-79/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/Facebook.b1acd7ee.svg1767629377281231751 0
+79/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/Facebook.b1acd7ee.svg1767648831298081546 0
 82/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/Checkmark-2.1cbb4fc8.svg1767523635721556145 0
-77/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/Person.880b4a19.svg1767629377180235664 0
+77/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/Person.880b4a19.svg1767648831252082647 0
 100/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/BestShop-landing-html-css.9bfebdba.css.map1767523635364556507 0
 66/home/vesnicasoncek/GitHub/BestShop-landing-html-css/css/reset.css1761123560098107000 0
 66/home/vesnicasoncek/GitHub/BestShop-landing-html-css/css/style.css1767562334631934218 0
@@ -32,11 +32,11 @@
 65/home/vesnicasoncek/GitHub/BestShop-landing-html-css/scss/generic1767628756323806931 1
 78/home/vesnicasoncek/GitHub/BestShop-landing-html-css/scss/settings/_fonts.scss1767627408319629832 0
 79/home/vesnicasoncek/GitHub/BestShop-landing-html-css/scss/settings/_mixins.scss1767627440320572026 0
-67/home/vesnicasoncek/GitHub/BestShop-landing-html-css/scss/main.scss1767628690877035636 0
+67/home/vesnicasoncek/GitHub/BestShop-landing-html-css/scss/main.scss1767647990991822507 0
 80/home/vesnicasoncek/GitHub/BestShop-landing-html-css/scss/elements/_contact.scss1767628866390460015 0
 80/home/vesnicasoncek/GitHub/BestShop-landing-html-css/scss/elements/_pricing.scss1767628851170505445 0
 79/home/vesnicasoncek/GitHub/BestShop-landing-html-css/scss/elements/_footer.scss1767629360318898256 0
-80/home/vesnicasoncek/GitHub/BestShop-landing-html-css/scss/elements/_buttons.scss1767630040207939496 0
+80/home/vesnicasoncek/GitHub/BestShop-landing-html-css/scss/elements/_buttons.scss1767648257261688028 0
 63/home/vesnicasoncek/GitHub/BestShop-landing-html-css/.gitignore1762354368727834649 0
 62/home/vesnicasoncek/GitHub/BestShop-landing-html-css/README.md1762415450304772262 0
 84/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/tslib/package.json1767524369570424266 0
@@ -860,7 +860,7 @@
 100/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/sass/types/logger/source_span.d.ts1767524369821435758 0
 106/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/caniuse-lite/data/features/indexeddb2.js1767524370023024764 0
 88/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@lezer/lr/package.json1767524369599424083 0
-80/home/vesnicasoncek/GitHub/BestShop-landing-html-css/scss/elements/_opening.scss1767628801723658513 0
+80/home/vesnicasoncek/GitHub/BestShop-landing-html-css/scss/elements/_opening.scss1767648100227155491 0
 90/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/transformer-sass1767524369588424153 1
 83/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/base-x/LICENSE.md1767524369500424707 0
 100/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/node-resolver-core/LICENSE1767524369393425381 0
@@ -1052,7 +1052,7 @@
 120/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/runtime-browser-hmr/src/loaders/.eslintrc.json1767524369601424071 0
 82/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/parcel/README.md1767524369593424121 0
 84/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/term-size/index.js1767524369594424115 0
-57/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist1767647875547513376 1
+57/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist1767648831298081546 1
 97/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/caniuse-lite/data/regions/SZ.js1767524370131423333 0
 85/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/type-fest/base.d.ts1767524369558424342 0
 97/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/caniuse-lite/data/regions/MW.js1767524370064421155 0
@@ -1251,7 +1251,7 @@
 96/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/msgpackr/dist/index.min.js.map1767524369711423378 0
 99/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/lightningcss/node/targets.js.flow1767524369603424058 0
 110/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/watcher/src/macos/FSEventsBackend.hh1767524369696423473 0
-99/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/BestShop-landing-html-css.3464ddca.js.map1767629377235233533 0
+99/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/BestShop-landing-html-css.3464ddca.js.map1767648831283081905 0
 92/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/lightningcss/node/ast.d.ts1767524369655423731 0
 113/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/lightningcss/node_modules/detect-libc/README.md1767524369578424216 0
 81/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/globals/license1767524369368425538 0
@@ -1736,7 +1736,7 @@
 112/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@swc/helpers/cjs/_async_generator_delegate.cjs1767524369597424096 0
 102/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@swc/helpers/_/_class_name_tdz_error1767524369870422377 1
 118/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/lightningcss/node_modules/detect-libc/lib/process.js1767524369572424253 0
-74/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/Eye.10263c42.svg1767629377281231751 0
+74/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/Eye.10263c42.svg1767648831298081546 0
 89/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/supports-color/index.js1767524369466424921 0
 79/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/source-map-js1767524369648423775 1
 111/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/msgpackr-extract/node_modules/detect-libc/lib1767524369569424272 1
@@ -1851,7 +1851,7 @@
 76/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/parcel/lib1767524369536424480 1
 99/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@swc/helpers/cjs/_ts_decorate.cjs1767524369758423082 0
 89/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/source-map-js/README.md1767524369639423831 0
-72/home/vesnicasoncek/GitHub/BestShop-landing-html-css/.idea/workspace.xml1767647875408513035 0
+72/home/vesnicasoncek/GitHub/BestShop-landing-html-css/.idea/workspace.xml1767648806100367602 0
 116/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/transformer-babel/lib/remapAstLocations.js1767524369643423806 0
 76/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/sass/types1767524369815422723 1
 92/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/nullthrows/nullthrows.d.ts1767524369470424896 0
@@ -2007,7 +2007,7 @@
 103/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/caniuse-lite/data/features/flexbox.js1767524369992421608 0
 97/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/caniuse-lite/data/regions/PE.js1767524370082421041 0
 100/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@swc/helpers/src/_to_primitive.mjs1767524369966951937 0
-66/home/vesnicasoncek/GitHub/BestShop-landing-html-css/scss/elements1767647875367512934 1
+66/home/vesnicasoncek/GitHub/BestShop-landing-html-css/scss/elements1767648806080700110 1
 104/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@swc/helpers/src/_set_prototype_of.mjs1767524369957421829 0
 76/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/is-extglob1767524369465424927 1
 123/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/runtime-js/src/helpers/browser/import-polyfill.js1767524369681423567 0
@@ -2129,7 +2129,7 @@
 123/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@swc/helpers/src/_create_for_of_iterator_helper_loose.mjs1767524369947267058 0
 92/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@swc/helpers/cjs/index.cjs1767524369770423007 0
 112/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@swc/helpers/esm/_object_without_properties.js1767524369827422648 0
-83/home/vesnicasoncek/GitHub/BestShop-landing-html-css/scss/elements/_statistics.scss1767628822791592251 0
+83/home/vesnicasoncek/GitHub/BestShop-landing-html-css/scss/elements/_statistics.scss1767648806077700185 0
 122/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@swc/helpers/esm/_class_static_private_field_spec_set.js1767524369801241125 0
 118/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/error-overlay/src/components/ErrorOverlay.js1767524369589424146 0
 96/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@swc/helpers/src/_defaults.mjs1767524369947975101 0
@@ -2430,7 +2430,7 @@
 122/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/package-manager/test/fixtures/packages/peers-2.01767524369728423271 1
 110/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@swc/helpers/esm/_tagged_template_literal.js1767524369834422604 0
 89/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/semver/ranges/subset.js1767524369711423378 0
-58/home/vesnicasoncek/GitHub/BestShop-landing-html-css/.idea1767647875409513037 1
+58/home/vesnicasoncek/GitHub/BestShop-landing-html-css/.idea1767648806100699609 1
 111/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@swc/helpers/_/_array_with_holes/package.json1767524369856422465 0
 106/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@swc/helpers/esm/_non_iterable_spread.js1767524369823422673 0
 80/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/ordered-binary1767524369611424008 1
@@ -2710,7 +2710,7 @@
 118/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/runtime-js/lib/helpers/worker/wasm-loader.js1767524369740423195 0
 102/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/diagnostic/lib/diagnostic.js1767524369470424896 0
 108/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/packager-js/lib/CJSOutputFormat.js1767524369464424934 0
-95/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/BestShop-landing-html-css.3464ddca.js1767629377232233649 0
+95/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/BestShop-landing-html-css.3464ddca.js1767648831280081977 0
 101/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@swc/helpers/_/_object_spread_props1767524369906422150 1
 97/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/diagnostic/package.json1767524369569424272 0
 89/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/diagnostic/test1767524369562424316 1
@@ -2904,7 +2904,7 @@
 98/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/packager-js/package.json1767524369672423624 0
 93/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/workers/lib/process1767524369707423403 1
 112/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/core/test/fixtures/application-targets1767524369877422333 1
-57/home/vesnicasoncek/GitHub/BestShop-landing-html-css/scss1767628690905035534 1
+57/home/vesnicasoncek/GitHub/BestShop-landing-html-css/scss1767647990995070989 1
 94/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/package-manager/test1767524369690423510 1
 119/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/core/test/fixtures/config-malformed/.parcelrc1767524369557424348 0
 103/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/package-manager/test/fixtures1767524369700423447 1
@@ -3066,14 +3066,14 @@
 101/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/runtime-rsc/rsc-helpers.jsx1767524369559424335 0
 119/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/runtime-js/lib/helpers/browser/wasm-loader.js1767524369736423221 0
 124/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/runtime-service-worker/src/ServiceWorkerRuntime.js1767524369507424663 0
-81/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/Background.b0093fb6.png1767629377212234424 0
+81/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/Background.b0093fb6.png1767648831264082360 0
 104/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/core/test/EntryRequest.test.js1767524369764423044 0
 124/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/runtime-service-worker/lib/ServiceWorkerRuntime.js1767524369463424940 0
 104/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/runtime-service-worker/LICENSE1767524369371425519 0
 119/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/utils/test/input/sourcemap/source-root.js.map1767524369812422742 0
 107/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/caniuse-lite/data/features/pointerlock.js1767524370088258120 0
 87/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/namer-default1767524369531424512 1
-81/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/Phone Icon.82019235.svg1767629377281231751 0
+81/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/Phone Icon.82019235.svg1767648831298081546 0
 104/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/core/src/public/Environment.js1767524369770423007 0
 118/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@swc/helpers/esm/_class_private_field_destructure.js1767524369791422874 0
 91/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/namer-default/src1767524369479424839 1
@@ -3459,7 +3459,7 @@
 95/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/core/lib/constants.js1767524369752423120 0
 91/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/core/lib/index.js1767524369772422994 0
 102/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/core/lib/loadParcelPlugin.js1767524369789422887 0
-77/home/vesnicasoncek/GitHub/BestShop-landing-html-css/scss/elements/_base.scss1767647667715540738 0
+77/home/vesnicasoncek/GitHub/BestShop-landing-html-css/scss/elements/_base.scss1767648528858960921 0
 100/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/core/lib/serializerCore.js1767524369848460275 0
 91/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/core/lib/requests1767524369874422352 1
 88/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/picomatch/package.json1767524369592424128 0
@@ -3624,7 +3624,7 @@
 88/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/@parcel/types-internal1767524369637423844 1
 97/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/caniuse-lite/data/regions/NI.js1767524370069125262 0
 97/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/caniuse-lite/data/regions/SD.js1767524370105420897 0
-77/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/iPhone.65a507eb.png1767629377183235548 0
+77/home/vesnicasoncek/GitHub/BestShop-landing-html-css/dist/iPhone.65a507eb.png1767648831252082647 0
 97/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/caniuse-lite/data/regions/HU.js1767524370016421457 0
 97/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/caniuse-lite/data/regions/CR.js1767524369849422509 0
 109/home/vesnicasoncek/GitHub/BestShop-landing-html-css/node_modules/caniuse-lite/data/features/css-image-set.js1767524369905422156 0

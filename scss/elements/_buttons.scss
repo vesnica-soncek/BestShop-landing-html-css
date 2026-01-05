@@ -7,15 +7,22 @@ $button-radius: 35px;
   padding: 16px 65px;
   border-radius: $button-radius;
   border: none;
-}
 
-.btn--primary {
-  background-color: $color-primary;
-  border-radius: $button-radius;
-  box-shadow: 3px 10px 14px $color-primary-shadow;
-}
+  &--primary {
+    background-color: $color-primary;
+    border-radius: $button-radius;
+    box-shadow: 3px 10px 14px $color-primary-shadow;
+  }
 
-.btn--large {
-  padding: 22px 155px;
-}
+  &--large {
+    padding: 22px 155px;
+  }
 
+  &--redish {
+    background-color: $color-pricing-1
+  }
+
+  &--green {
+    background-color: $color-pricing-3
+  }
+}
