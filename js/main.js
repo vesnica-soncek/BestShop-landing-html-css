@@ -1,7 +1,7 @@
 function Calculator(form, summary) {
     this.prices = {
-        products: 0.5,
-        orders: 0.25,
+        products: 1,
+        orders: 2,
         package: {
             basic: 0,
             professional: 25,
@@ -21,11 +21,19 @@ function Calculator(form, summary) {
 
     this.summary = {
         list: summary.querySelector("ul"),
+        items: {
+            products: summary.querySelector('.list__item[data-id="products"]'),
+            orders: summary.querySelector('.list__item[data-id="orders"]'),
+            package: summary.querySelector('.list__item[data-id="package"]'),
+            accounting: summary.querySelector('.list__item[data-id="accounting"]'),
+            terminal: summary.querySelector('.list__item[data-id="terminal"]')
+        },
         total: {
             container: summary.querySelector("#total-price"),
             price: summary.querySelector(".total__price")
         }
     };
+
 
     this.addEvents();
 }
@@ -47,15 +55,36 @@ Calculator.prototype.getValidInteger = function (value) {
     return String(number);
 };
 
+// vnos:
 Calculator.prototype.inputEvent = function (e) {
     var input = e.target;
-    var cleanedValue = this.getValidInteger(input.value);
+    var id = input.id; // "products" ali "orders"
 
-    // če ni OK, se izbriše
-    input.value = cleanedValue;
+    input.value = this.getValidInteger(input.value);
 
-    console.log("input checked:", input.id, input.value);
+    if (input.value === "") {
+        this.hideSummaryItem(id);
+        return;
+    }
+
+    // pokaži vrstico
+    this.showSummaryItem(id);
+
+    // izračun
+    var quantity = parseInt(input.value, 10);
+    var singlePrice = this.prices[id];
+    var total = quantity * singlePrice;
+
+    // posodobi tekst v summary vrstici
+    var item = this.summary.items[id];
+    var calcEl = item.querySelector(".item__calc");
+    var priceEl = item.querySelector(".item__price");
+
+    calcEl.innerText = quantity + " * $" + singlePrice;
+    priceEl.innerText = "$" + total;
 };
+
+
 
 //spustni meni:
 Calculator.prototype.selectEvent = function (e) {
@@ -65,6 +94,20 @@ Calculator.prototype.selectEvent = function (e) {
     if (e.target.tagName === "LI") {
         var value = e.target.getAttribute("data-value");
         var text = e.target.innerText;
+
+        // pokaži vrstico
+        this.showSummaryItem("package");
+
+        // cena paketa
+        var packagePrice = this.prices.package[value];
+
+        // posodobi summary vrstico:
+        var item = this.summary.items.package;
+        var calcEl = item.querySelector(".item__calc");
+        var priceEl = item.querySelector(".item__price");
+
+        calcEl.innerText = text;
+        priceEl.innerText = "$" + packagePrice;
 
         this.form.package.setAttribute("data-value", value);
         this.form.package.querySelector(".select__input").innerText = text;
@@ -87,6 +130,15 @@ Calculator.prototype.closeSelectIfClickedOutside = function (e) {
 Calculator.prototype.checkboxEvent = function (e) {
     var checkbox = e.target;
     console.log("checkbox:", checkbox.id, checkbox.checked);
+};
+
+// TODO!!!!
+Calculator.prototype.showSummaryItem = function (id) {
+    this.summary.items[id].classList.add("open");
+};
+
+Calculator.prototype.hideSummaryItem = function (id) {
+    this.summary.items[id].classList.remove("open");
 };
 
 
