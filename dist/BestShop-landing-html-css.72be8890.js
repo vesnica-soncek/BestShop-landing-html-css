@@ -60,14 +60,23 @@ Calculator.prototype.closeSelectIfClickedOutside = function(e) {
     // če klik ni bil znotraj #package, zapri dropdown
     if (!this.form.package.contains(e.target)) this.form.package.classList.remove("open");
 };
+// Checkbox:
+Calculator.prototype.checkboxEvent = function(e) {
+    var checkbox = e.target;
+    console.log("checkbox:", checkbox.id, checkbox.checked);
+};
 Calculator.prototype.addEvents = function() {
     // VALIDACIJA:
     this.form.products.addEventListener("change", this.inputEvent.bind(this));
     this.form.products.addEventListener("blur", this.inputEvent.bind(this));
     this.form.orders.addEventListener("change", this.inputEvent.bind(this));
     this.form.orders.addEventListener("blur", this.inputEvent.bind(this));
+    // za dropdown meni:
     this.form.package.addEventListener("click", this.selectEvent.bind(this));
     document.addEventListener("click", this.closeSelectIfClickedOutside.bind(this));
+    // za checkboxe:
+    this.form.accounting.addEventListener("change", this.checkboxEvent.bind(this));
+    this.form.terminal.addEventListener("change", this.checkboxEvent.bind(this));
     console.log("Calculator ready");
 };
 document.addEventListener("DOMContentLoaded", function() {
