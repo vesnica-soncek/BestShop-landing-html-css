@@ -92,6 +92,9 @@ Calculator.prototype.addEvents = function () {
     this.form.orders.addEventListener("change", this.inputEvent.bind(this));
     this.form.orders.addEventListener("blur", this.inputEvent.bind(this));
 
+    this.form.package.addEventListener("click", this.selectEvent.bind(this));
+    document.addEventListener("click", this.closeSelectIfClickedOutside.bind(this));
+
     console.log("Calculator ready");
 };
 
