@@ -42,5 +42,18 @@ Calculator.prototype.inputEvent = function(e) {
     input.value = cleanedValue;
     console.log("input checked:", input.id, input.value);
 };
+Calculator.prototype.addEvents = function() {
+    // VALIDACIJA:
+    this.form.products.addEventListener("change", this.inputEvent.bind(this));
+    this.form.products.addEventListener("blur", this.inputEvent.bind(this));
+    this.form.orders.addEventListener("change", this.inputEvent.bind(this));
+    this.form.orders.addEventListener("blur", this.inputEvent.bind(this));
+    console.log("Calculator ready");
+};
+document.addEventListener("DOMContentLoaded", function() {
+    var form = document.querySelector(".calc__form");
+    var summary = document.querySelector(".calc__summary");
+    new Calculator(form, summary);
+});
 
 //# sourceMappingURL=BestShop-landing-html-css.72be8890.js.map

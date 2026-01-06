@@ -68,6 +68,8 @@ Calculator.prototype.addEvents = function () {
     console.log("Calculator ready");
 };
 
+
+
 document.addEventListener("DOMContentLoaded", function () {
     var form = document.querySelector(".calc__form");
     var summary = document.querySelector(".calc__summary");
