@@ -7,8 +7,8 @@ function Calculator(form, summary) {
             professional: 25,
             premium: 60
         },
-        accounting: 35,
-        terminal: 5
+        accounting: 40,
+        terminal: 10
     };
     this.form = {
         products: form.querySelector("#products"),
@@ -63,6 +63,7 @@ Calculator.prototype.inputEvent = function(e) {
     var priceEl = item.querySelector(".item__price");
     calcEl.innerText = quantity + " * $" + singlePrice;
     priceEl.innerText = "$" + total;
+    this.updateTotal();
 };
 //spustni meni:
 Calculator.prototype.selectEvent = function(e) {
@@ -86,6 +87,7 @@ Calculator.prototype.selectEvent = function(e) {
         // zapiranje menija:
         this.form.package.classList.remove("open");
         console.log("package selected:", value);
+        this.updateTotal();
     }
 };
 Calculator.prototype.closeSelectIfClickedOutside = function(e) {
@@ -95,14 +97,42 @@ Calculator.prototype.closeSelectIfClickedOutside = function(e) {
 // Checkbox:
 Calculator.prototype.checkboxEvent = function(e) {
     var checkbox = e.target;
-    console.log("checkbox:", checkbox.id, checkbox.checked);
+    var id = checkbox.id; // "accounting" ali "terminal"
+    if (checkbox.checked) {
+        this.showSummaryItem(id);
+        // posodobi ceno v summary vrstici
+        var item = this.summary.items[id];
+        var priceEl = item.querySelector(".item__price");
+        priceEl.innerText = "$" + this.prices[id];
+    } else this.hideSummaryItem(id);
+    this.updateTotal();
 };
-// TODO!!!!
+//
 Calculator.prototype.showSummaryItem = function(id) {
     this.summary.items[id].classList.add("open");
 };
 Calculator.prototype.hideSummaryItem = function(id) {
     this.summary.items[id].classList.remove("open");
+};
+// funkcija: updateTotal:
+Calculator.prototype.updateTotal = function() {
+    var total = 0;
+    // products
+    if (this.form.products.value !== "") total = total + parseInt(this.form.products.value, 10) * this.prices.products;
+    // orders
+    if (this.form.orders.value !== "") total = total + parseInt(this.form.orders.value, 10) * this.prices.orders;
+    // package
+    var selectedPackage = this.form.package.getAttribute("data-value");
+    if (selectedPackage !== null && selectedPackage !== "") total = total + this.prices.package[selectedPackage];
+    // accounting
+    if (this.form.accounting.checked) total = total + this.prices.accounting;
+    // terminal
+    if (this.form.terminal.checked) total = total + this.prices.terminal;
+    // pokaži ali skrij total vrstico
+    if (total > 0) {
+        this.summary.total.price.innerText = "$" + total;
+        this.summary.total.container.classList.add("open");
+    } else this.summary.total.container.classList.remove("open");
 };
 Calculator.prototype.addEvents = function() {
     // VALIDACIJA:
