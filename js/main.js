@@ -51,11 +51,38 @@ Calculator.prototype.inputEvent = function (e) {
     var input = e.target;
     var cleanedValue = this.getValidInteger(input.value);
 
-    // če ni OK, izbrišemo
+    // če ni OK, se izbriše
     input.value = cleanedValue;
 
     console.log("input checked:", input.id, input.value);
 };
+
+//spustni meni:
+Calculator.prototype.selectEvent = function (e) {
+    this.form.package.classList.toggle("open");
+
+    // izbira paketa:
+    if (e.target.tagName === "LI") {
+        var value = e.target.getAttribute("data-value");
+        var text = e.target.innerText;
+
+        this.form.package.setAttribute("data-value", value);
+        this.form.package.querySelector(".select__input").innerText = text;
+
+        // zapiranje menija:
+        this.form.package.classList.remove("open");
+
+        console.log("package selected:", value);
+    }
+};
+
+Calculator.prototype.closeSelectIfClickedOutside = function (e) {
+    // če klik ni bil znotraj #package, zapri dropdown
+    if (!this.form.package.contains(e.target)) {
+        this.form.package.classList.remove("open");
+    }
+};
+
 
 Calculator.prototype.addEvents = function () {
     // VALIDACIJA:
